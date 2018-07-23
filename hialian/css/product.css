@@ -1,0 +1,91 @@
+.center {
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+}
+.center .center-left .seek {
+  height: 165px;
+}
+.center .center-left .seek span {
+  display: block;
+}
+.center .center-left .seek .ipt {
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #c2c2c2;
+  border-top: none ;
+  height: auto;
+  position: relative;
+}
+.center .center-left .seek .ipt input {
+  width: 168px;
+  height: 28px;
+  border: 1px solid #c2c2c2;
+  padding-left: 8px;
+}
+.center .center-left .seek .ipt img {
+  position: absolute;
+  height: 26px;
+  top: 11px;
+  right: 21px;
+  cursor: pointer;
+}
+.center .center-right {
+  margin-left: 245px;
+}
+.center .center-right .center-right-botton ul {
+  overflow: hidden;
+}
+.center .center-right .center-right-botton ul li {
+  float: left;
+  margin: 15px;
+  position: relative;
+}
+.center .center-right .center-right-botton ul li:hover a p{
+	display: block;
+}
+.center .center-right .center-right-botton ul li a p{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	display: none;
+	color: #fff;
+	background-color: rgba(195,195,195,0.75);
+}
+
+.center .center-right .center-right-botton .center-right-url {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.center .center-right .center-right-botton .center-right-url a {
+  margin: 0 15px;
+  padding: 0 5px ;
+  display: inline-block;
+  color: #000;
+}
+.center .center-right .center-right-botton .center-right-url a:hover {
+  background-color: #ff2a00;
+  color: #fff;
+}
+.center .center-right .center-right-botton .center-right-url form {
+  display: inline-block;
+}
+.center .center-right .center-right-botton .center-right-url form span input {
+  width: 34px;
+  height: 17px;
+}
+.center .center-right .center-right-botton .center-right-url form .sbt {
+  border: 0;
+  display: inline-block;
+  height: 20px;
+  width: 40px;
+}
+.center .center-right .center-right-botton .center-right-url form .sbt:hover {
+  background-color: #ff2a00;
+  color: #fff;
+  cursor: pointer;
+}

@@ -1,0 +1,119 @@
+.center {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.center .center-left {
+  border: 1px solid #c2c2c2;
+  margin-top: 100px;
+}
+.center .center-left div {
+  margin: 0;
+}
+.center .center-left .center-left-botton {
+  height: 120px;
+  background: none;
+}
+.center .center-left .center-left-botton p {
+  font-size: 16px;
+  color: #3599ff;
+  padding-top: 10px;
+}
+.center .center-right {
+  margin-left: 245px;
+}
+.center .center-right .center-right-nav {
+  text-align: center;
+}
+.center .center-right .center-right-nav h3 {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #ffb526;
+}
+.center .center-right .center-right-nav div h4 {
+  color: #ffb526;
+  font-size: 12px;
+  display: inline-block;
+  width: auto;
+  text-indent: 0;
+  float: none;
+  margin-bottom: 10px;
+}
+.center .center-right .center-right-nav div span {
+  display: inline-block;
+  width: 80px;
+  height: 1px;
+  background-color: #b8b5b5 ;
+  float: none;
+  margin-bottom: 5px;
+  margin: 5px 10px;
+}
+.center .center-right .center-right-botton .center-right-botton-top {
+  width: 80%;
+  height: 500px;
+  margin: 30px auto;
+}
+.center .center-right .center-right-botton .center-right-botton-botton {
+  overflow: hidden;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message {
+  float: left;
+  width: 40%;
+  line-height: 30px;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message h3 {
+  color: #515151;
+  font-size: 16px;
+  line-height: 35px;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message form input {
+  width: 170px;
+  height: 17px;
+  padding-left: 8px ;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message form textarea {
+  width: 170px;
+  height: 74px;
+  vertical-align: top;
+  padding-left: 8px ;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message form label {
+  font-size: 14px;
+  color: #939393;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message form div label {
+  vertical-align: top;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message form div .verify {
+  width: 80px;
+  vertical-align: middle;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message form .btn {
+  width: 90px;
+  height: 28px;
+  border: 1px solid #cbcbcb;
+  background-color: #e8e8e8;
+  margin: 15px 15px;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .left-message form .btn:hover {
+  background-color: #a8dde3;
+  color: #fff;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .right-message {
+  float: right;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .right-message h3 {
+  color: #515151;
+  font-size: 16px;
+  line-height: 35px;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .right-message ul li {
+  color: #939393;
+  font-size: 14px;
+  line-height: 26px;
+}
+.center .center-right .center-right-botton .center-right-botton-botton .right-message ul li img {
+  margin-top: 50px;
+}

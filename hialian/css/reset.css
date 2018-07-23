@@ -1,0 +1,18 @@
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,p,dl,dd,dt,button,input,textarea{margin: 0px;padding: 0px;}
+*{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+a{text-decoration: none;}
+ul,ol{list-style: none;}
+textarea{resize: none;}
+img{border: none;}
+a,a:focus{text-decoration: none;outline:none;blr:expression(this.onFocus=this.blur());}
+input,button,input:focus,button:focus{outline:none;hide-focus: expression(this.hideFocus=true);}
+button::-moz-focus-inner, input[type="reset"]::-moz-focus-inner, input[type="button"]::-moz-focus-inner, input[type="submit"]::-moz-focus-inner, input[type="file"] > input[type="button"]::-moz-focus-inner {
+border:none 
+}
+::-webkit-input-placeholder {color:#FFF;}
+:-moz-placeholder {color:#FFF;}
+::-moz-placeholder {color:#FFF;}
+:-ms-input-placeholder {color:#FFF;}
+html, body {position: relative;height: 100%;}
+.fix{*zoom:1;}
+.fix:after{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}

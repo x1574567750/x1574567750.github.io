@@ -1,0 +1,58 @@
+.center {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 30px;
+}
+.center .center-right-botton .center-right-content {
+  overflow: hidden;
+  padding-top: 15px;
+}
+.center .center-right-botton .center-right-content li {
+  margin-bottom: 45px;
+}
+.center .center-right-botton .center-right-content li a {
+  float: left;
+}
+.center .center-right-botton .center-right-content li p {
+  line-height: 26px;
+  font-size: 14px;
+  color: #8b8b8b;
+  margin-left: 170px;
+  text-indent: 2em;
+}
+.center .center-right-botton .center-right-content li p a {
+  color: #a6282e;
+  float: none;
+}
+.center .center-right-botton .center-right-url {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.center .center-right-botton .center-right-url a {
+  margin: 0 15px;
+  padding: 0 5px ;
+  display: inline-block;
+  color: #000;
+}
+.center .center-right-botton .center-right-url a:hover {
+  background-color: #ff2a00;
+  color: #fff;
+}
+.center .center-right-botton .center-right-url form {
+  display: inline-block;
+}
+.center .center-right-botton .center-right-url form span input {
+  width: 34px;
+  height: 14px;
+}
+.center .center-right-botton .center-right-url form .sbt {
+  border: 0;
+  width: 40px;
+}
+.center .center-right-botton .center-right-url form .sbt:hover {
+  background-color: #ff2a00;
+  color: #fff;
+  cursor: pointer;
+}

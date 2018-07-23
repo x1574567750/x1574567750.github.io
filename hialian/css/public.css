@@ -1,0 +1,243 @@
+@import 'reset.css';
+textarea {
+  overflow: hidden;
+}
+header {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+header a {
+  float: left;
+}
+header a img {
+  height: 120px;
+  width: auto;
+}
+header nav {
+  float: right;
+  line-height: 120px;
+}
+header nav a {
+  display: inline-block;
+  margin: 0 40px;
+  color: #000;
+}
+header nav a:hover {
+  color: #3599ff;
+}
+header nav .spc {
+  color: #3599ff !important;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.banner .img-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.banner .img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.banner .img-box img:first-child {
+  display: block;
+}
+.banner .img-num {
+  position: relative;
+  width: 100%;
+  bottom: 30px;
+  left: 0px;
+  text-align: center;
+}
+.banner .img-num li {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  transition: all 0.5s;
+  background-image: url(../img/25.png);
+}
+.banner .img-num li:first-child {
+  background-image: url(../img/26.png);
+}
+.center .center-left {
+  margin-right: 43px;
+  margin-top: 66px;
+  float: left;
+}
+.center .center-left div {
+  background-color: #3599ff;
+  text-align: center;
+  height: 150px;
+  width: 210px;
+  margin-top: 25px;
+}
+.center .center-left div p {
+  color: #fff;
+  font-size: 22px;
+  padding-top: 25px;
+}
+.center .center-left div hr {
+  width: 40px;
+  height: 2px;
+  border: 1px solid #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.center .center-left div span {
+  font-size: 16px;
+  color: #fff;
+}
+.center .center-left ul {
+  width: 210px;
+  text-align: center;
+  font-size: 16px;
+}
+.center .center-left ul li {
+  margin: 15px auto;
+}
+.center .center-left ul li a {
+  color: #757575;
+}
+.center .center-left ul .spc a {
+  background-color: #3599ff;
+  color: #fff;
+  width: 125px;
+  height: 26px;
+  display: inline-block;
+  border-radius: 15px;
+  behavior: url(PIE.htc);
+  line-height: 26px;
+}
+.center .center-right {
+  padding-top: 30px;
+}
+.center .center-right .center-right-nav h2 {
+  font-size: 20px;
+  color: #7e7e7e;
+  font-weight: 200;
+}
+.center .center-right .center-right-nav div {
+  overflow: hidden;
+}
+.center .center-right .center-right-nav div h4 {
+  display: inline-block;
+  float: left;
+  text-indent: 6em;
+  color: #7e7e7e;
+  font-size: 16px;
+}
+.center .center-right .center-right-nav div span {
+  float: right;
+  color: #7e7e7e;
+  font-size: 12px;
+}
+.center .center-right .center-right-nav div span a {
+  color: #7e7e7e;
+}
+.center .center-right .center-right-nav div span .spc {
+  color: #ffaf30;
+}
+footer {
+  background-color: #87c4cb;
+}
+footer div {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+  overflow: hidden;
+}
+footer div .footer-top {
+  float: left;
+  width: 50%;
+}
+footer div .footer-top li {
+  float: left;
+  margin: 0 30px;
+}
+footer div .footer-top li h4 {
+  text-align: center;
+}
+footer div .footer-top li h4 a {
+  color: #ffffff;
+  font-size: 16px;
+  border-bottom: 2px solid #ffffff;
+}
+footer div .footer-top li ul {
+  overflow: hidden;
+}
+footer div .footer-top li ul li {
+  float: none;
+  margin: 15px 0;
+  font-size: 12px;
+}
+footer div .footer-top li ul li a {
+  color: #ffffff;
+}
+footer div form {
+  float: left;
+  width: 50%;
+}
+footer div form div {
+  padding-top: 0 ;
+}
+footer div form .message input {
+  width: 144px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  background: none;
+  padding-left: 8px;
+  font-size: 12px;
+  line-height: 30px;
+  vertical-align: top;
+  color: #fff;
+}
+footer div form textarea {
+  padding: 8px;
+  margin-top: 10px;
+  width: 292px;
+  height: 100px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: none;
+}
+footer div form .verify input {
+  width: 110px;
+  height: 33px;
+  border: 1px solid #ffffff;
+  background: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 8px;
+  line-height: 33px;
+  color: #fff;
+  vertical-align: middle;
+}
+footer div form .verify img {
+  margin-left: 15px;
+}
+footer div form .submit {
+  width: 110px;
+  height: 33px;
+  border: 1px solid #ffffff;
+  background: none;
+  color: #ffffff;
+}
+footer .footer-botton {
+  width: 100%;
+  padding-top: -40px;
+}
+footer .footer-botton p {
+  text-align: center;
+  color: #ffffff;
+  line-height: 33px;
+  border-top: 2px solid #ffffff;
+  font-size: 10px;
+}

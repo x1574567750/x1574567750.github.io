@@ -1,0 +1,25 @@
+.center {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.center .center-right {
+  margin-left: 253px;
+}
+.center .center-right hr {
+  color: #b8b5b5;
+}
+.center .center-right .center-right-content {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.center .center-right .center-right-content a {
+  float: left;
+}
+.center .center-right .center-right-content p {
+  text-indent: 2em;
+  color: #919191;
+  font-size: 14px;
+  line-height: 20px;
+}

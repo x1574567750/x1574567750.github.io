@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>海联</title>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contactUs.css"/>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=r37v7z2CPXZwuj3xTtnGsdXlTN7s9F3K"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/PIE.js"></script>
+	<script type="text/javascript">
+		$(function(){ $('input, textarea').placeholder(); });
+		$(function() {  
+	    $('.round').each(function() {  
+	        PIE.attach(this);
+	    });
+	});
+	</script>
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<img src="img/logo.png"/>
+		</a>
+		<nav>
+			<a href="index.html">首页</a>
+			<a href="company.html">公司介绍</a>
+			<a href="news.html">新闻中心</a>
+			<a href="product.html">产品中心</a>
+			<a href="contactUs.html" class="spc">联系我们</a>
+		</nav>
+	</header>
+	<div class="banner" id="banner" onmouseenter="stopBanner()" onmouseleave="startBanner()">
+		<div class="img-box" id="img_box">
+			<img src="img/banner1.png"/>
+			<img src="img/banner2.png"/>
+			<img src="img/banner3.png"/>
+		</div>
+		<ul class="img-num" id="img_num">
+			<li onmouseenter="showImg(0)"></li>
+			<li onmouseenter="showImg(1)"></li>
+			<li onmouseenter="showImg(2)"></li>
+		</ul>
+	</div>
+	<div class="center">
+		<div class="center-left">
+			<div>
+				<p>News center</p>
+				<hr/>
+				<span>新闻中心</span>
+			</div>
+			<div class="center-left-botton">
+				<p>Quality first</p>
+				<p>And</p>
+				<p>service first</p>
+			</div>
+		</div>
+		<div class="center-right">
+			<div class="center-right-nav">
+				<h3>Contact US</h3>
+				<div><span></span><h4>联系我们</h4><span></span></div>
+			</div>
+			<div class="center-right-botton">
+				<div class="center-right-botton-top" id="allmap"></div>
+				<div class="center-right-botton-botton">
+					<div class="left-message">
+						<h3>给我留言</h3>
+						<form>
+							<label>姓 名 </label><input type="text"/><br/>
+							<label>邮 箱 </label><input type="text"/><br/>
+							<label>留 言 </label><textarea></textarea><br/>
+							<div>
+								<label>验证码 </label><input type="text"/ class="verify">
+								<img src="img/24.png"/>
+							</div>
+							<input type="submit" value="提交" class="btn"/>
+							<input type="button" value="重置" class="btn"/>
+						</form>
+					</div>
+					<div class="right-message">
+						<h3>联系方式</h3>
+						<ul>
+							<li>地 址：广东广州市昌岗中路211号信和广场8楼B座</li>
+							<li>电 话：020-34331397</li>
+							<li>传 真：020-34331189</li>
+							<li><img src="img/23.png"/></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<ul class="footer-top">
+				<li>
+					<h4><a href="company.html">关于我们</a></h4>
+					<ul>
+						<li><a href="company.html">公司简介</a></li>
+						<li><a href="company.html">企业文化</a></li>
+						<li><a href="company.html">企业荣誉</a></li>
+						<li><a href="company.html">资格认证</a></li>
+						<li><a href="company.html">研发生产</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4><a href="product.html">产品中心</a></h4>
+					<ul>
+						<li><a href="productCenter.html">五金配件</a></li>
+						<li><a href="productCenter.html">工艺品</a></li>
+						<li><a href="productCenter.html">电器</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4><a href="news.html">新闻中心</a></h4>
+					<ul>
+						<li><a href="newsCenter.html">最新动态</a></li>
+						<li><a href="newsCenter.html">企业新闻</a></li>
+						<li><a href="newsCenter.html">行业新闻</a></li>
+						<li><a href="newsCenter.html">热点聚焦</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4><a href="contactUs.html">联系我们</a></h4>
+					<ul>
+						<li><a href="contactUs.html">在线留言</a></li>
+						<li><a href="contactUs.html">网上咨询</a></li>
+						<li><a href="contactUs.html">联系我们</a></li>
+					</ul>
+				</li>
+			</ul>
+			<form>
+				<div class="message">
+					<input type="text" placeholder="请输入您的名字"/>
+					<input type="text" placeholder="请输入您的联系方式"/>
+				</div>
+				<textarea placeholder="请输入您的留言"></textarea>
+				<div class="verify">
+					<input type="text" placeholder="验证码"/>
+					<img src="img/code_img.png"/>
+				</div>
+				<input type="submit" value="提交"  class="submit"/>
+			</form>
+		</div>
+		<div class="footer-botton">
+			<p>Copyright@2016海联创业贸易有限公司.com All Rights Reserved      Design by WenCun粤ICP备13005446号-1</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/carousel.js"></script>
+</body>
+<script type="text/javascript">
+	// 百度地图API功能
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(106.4672473678, 29.5629934973), 18);  // 初始化地图,设置中心点坐标和地图级别
+	
+	map.enableScrollWheelZoom(true);
+	var point = new BMap.Point(106.4672473678, 29.5629934973);
+	map.centerAndZoom(point, 20);
+	var marker = new BMap.Marker(point);// 创建标注
+	map.addOverlay(marker);             // 将标注添加到地图中
+</script>
+</html>

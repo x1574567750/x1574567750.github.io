@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>海联</title>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/productContent.css"/>
+	<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/PIE.js"></script>
+	<script type="text/javascript">
+		$(function(){ $('input, textarea').placeholder(); });
+		$(function() {  
+	    $('.round').each(function() {  
+	        PIE.attach(this);
+	    });
+	});
+	</script>
+</head>
+<body>
+	<header>
+		<a href="index.html">
+			<img src="img/logo.png"/>
+		</a>
+		<nav>
+			<a href="index.html">首页</a>
+			<a href="company.html">公司介绍</a>
+			<a href="news.html">新闻中心</a>
+			<a href="product.html" class="spc">产品中心</a>
+			<a href="contactUs.html">联系我们</a>
+		</nav>
+	</header>
+	<div class="banner" id="banner" onmouseenter="stopBanner()" onmouseleave="startBanner()">
+		<div class="img-box" id="img_box">
+			<img src="img/banner1.png"/>
+			<img src="img/banner2.png"/>
+			<img src="img/banner3.png"/>
+		</div>
+		<ul class="img-num" id="img_num">
+			<li onmouseenter="showImg(0)"></li>
+			<li onmouseenter="showImg(1)"></li>
+			<li onmouseenter="showImg(2)"></li>
+		</ul>
+	</div>
+	<div class="center">
+		<div class="center-left">
+			<div>
+				<p>Product  center</p>
+				<hr/>
+				<span>产品中心</span>
+			</div>
+			<ul>
+				<li><a href="#">五金类   >></a></li>
+				<li><a href="#">家电类 >></a></li>
+				<li><a href="#">工艺品类  >></a></li>
+				<li class="spc"><a href="#" class="round">其   他   >></a></li>
+			</ul>
+		</div>
+		<div class="center-right">
+			<div class="center-right-nav">
+				<h2>产品中心</h2>
+				<div>
+					<h4>Product  center</h4>
+					<span>当前位置><a href="news.html">产品中心</a> > <a href="#" class="spc"> 产品详情 </a></span>
+				</div>
+			</div>
+			<hr />
+			<div class="center-content">
+				<div class="center-content-left"><img src="img/22.png"/></div>
+				<div class="center-content-right">
+					<h3>美的（Midea）电磁炉WK2102T</h3>
+					<h4>生活烹饪，节日聚会，约会女神必备神器！</h4>
+					<ul>
+						<li>型号：WK2102T</li>
+						<li>颜色：黑色</li>
+						<li>重量：5.64kg</li>
+						<li>面板材质：HEGON面板</li>
+						<li>产品尺寸：370*255*437</li>
+						<li>产品特性：触摸屏，配赠汤锅和炒锅，健康炒“节能烹饪
+							程序 聚能加热技术 多点测温技术双环节能线盘”。</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<ul class="footer-top">
+				<li>
+					<h4><a href="company.html">关于我们</a></h4>
+					<ul>
+						<li><a href="company.html">公司简介</a></li>
+						<li><a href="company.html">企业文化</a></li>
+						<li><a href="company.html">企业荣誉</a></li>
+						<li><a href="company.html">资格认证</a></li>
+						<li><a href="company.html">研发生产</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4><a href="product.html">产品中心</a></h4>
+					<ul>
+						<li><a href="productCenter.html">五金配件</a></li>
+						<li><a href="productCenter.html">工艺品</a></li>
+						<li><a href="productCenter.html">电器</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4><a href="news.html">新闻中心</a></h4>
+					<ul>
+						<li><a href="newsCenter.html">最新动态</a></li>
+						<li><a href="newsCenter.html">企业新闻</a></li>
+						<li><a href="newsCenter.html">行业新闻</a></li>
+						<li><a href="newsCenter.html">热点聚焦</a></li>
+					</ul>
+				</li>
+				<li>
+					<h4><a href="contactUs.html">联系我们</a></h4>
+					<ul>
+						<li><a href="contactUs.html">在线留言</a></li>
+						<li><a href="contactUs.html">网上咨询</a></li>
+						<li><a href="contactUs.html">联系我们</a></li>
+					</ul>
+				</li>
+			</ul>
+			<form>
+				<div class="message">
+					<input type="text" placeholder="请输入您的名字"/>
+					<input type="text" placeholder="请输入您的联系方式"/>
+				</div>
+				<textarea placeholder="请输入您的留言"></textarea>
+				<div class="verify">
+					<input type="text" placeholder="验证码"/>
+					<img src="img/code_img.png"/>
+				</div>
+				<input type="submit" value="提交"  class="submit"/>
+			</form>
+		</div>
+		<div class="footer-botton">
+			<p>Copyright@2016海联创业贸易有限公司.com All Rights Reserved      Design by WenCun粤ICP备13005446号-1</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/carousel.js"></script>
+</body>
+</html>

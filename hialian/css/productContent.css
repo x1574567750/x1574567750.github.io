@@ -1,0 +1,36 @@
+.center {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.center .center-right {
+  margin-left: 245px;
+}
+.center .center-right .center-content {
+  padding-top: 36px;
+  margin-bottom: 200px;
+  overflow: hidden;
+}
+.center .center-right .center-content .center-content-left {
+  float: left;
+  width: 50%;
+}
+.center .center-right .center-content .center-content-right {
+  float: right;
+  width: 50%;
+}
+.center .center-right .center-content .center-content-right h3 {
+  font-size: 25;
+  color: #575757;
+  line-height: 50px;
+}
+.center .center-right .center-content .center-content-right h4 {
+  font-size: 18;
+  color: #9b2828;
+  line-height: 35px;
+}
+.center .center-right .center-content .center-content-right ul li {
+  font-size: 14px;
+  color: #919191;
+  line-height: 26px;
+}

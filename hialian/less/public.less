@@ -1,0 +1,255 @@
+@import './reset.css';
+@import (reference) '../less/variables.less';
+textarea{
+    overflow: hidden;
+}
+header{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    a{
+        float: left;
+        img{
+            height: 120px;
+            width: auto;
+        }
+    }
+    nav{
+        float: right;
+        line-height: 120px;
+        a{
+            display: inline-block;
+            margin: 0 40px;
+            color: #000;
+            &:hover{
+                color: #3599ff;
+            }
+        }
+        .spc{
+                color: #3599ff !important;
+            }
+    }
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    .img-box{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            width: 100%;
+            height: 100%;
+            &:first-child{
+                display: block;
+            }
+        }
+    }
+    .img-num{
+        position: relative;
+        width: 100%;
+        bottom: 30px;
+        left: 0px;
+        text-align: center;
+        li{
+            width: 18px;
+            height: 18px;
+            display: inline-block;
+            transition: all 0.5s;
+            background-image:  url(../img/25.png); 
+            &:first-child{
+                background-image: url(../img/26.png);
+            }
+        }
+    }
+}
+.center{
+     .center-left{
+        margin-right: 43px;
+        margin-top: 66px;
+        float: left;
+        div{
+            background-color: #3599ff;
+            text-align: center;
+            height: 150px;
+            width: 210px;
+            margin-top: 25px;
+            p{
+                color: #fff;
+                font-size: 22px;
+                padding-top: 25px;
+            }
+            hr{
+                width: 40px;
+                height:2px;
+                border:1px solid #fff;
+                margin-top: 10px;
+                margin-bottom: 15px;
+            }
+            span{
+                font-size: 16px;
+                color: #fff;
+            }
+        }
+        ul{
+            width: 210px;
+            text-align: center;
+            font-size: 16px;
+            li{
+                margin: 15px auto;
+                a{
+                    color: #757575;
+                }
+            }
+            .spc{
+                a{
+                    background-color: #3599ff;
+                    color: #fff;
+                    width: 125px;
+                    height: 26px;
+                    display: inline-block;
+                    border-radius: 15px;
+                    behavior: url(PIE.htc);
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+    .center-right{
+        padding-top: 30px;
+        .center-right-nav{
+              h2{
+                  font-size: 20px;
+                  color: #7e7e7e;
+                  font-weight: 200;
+              } 
+              div{
+                  overflow: hidden;
+                  h4{
+                      display: inline-block;
+                      float: left;
+                      text-indent: 6em;
+                      color: #7e7e7e;
+                      font-size: 16px;
+                  }
+                  span{
+                      float: right;
+                      color: #7e7e7e;
+                      font-size: 12px;
+                      a{
+                          color: #7e7e7e;
+                      }
+                      .spc{
+                          color: #ffaf30;
+                      }
+                  }
+              }
+        }
+    }
+}
+footer{
+    background-color: #87c4cb;
+    div{
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 40px;
+        overflow: hidden;
+        .footer-top{
+            float: left;
+            width: 50%;
+            li{
+                float: left;
+                margin: 0 30px;
+                h4{
+                    text-align: center;
+                    a{
+                        color: @footerFontColor;
+                        font-size: 16px;
+                        border-bottom: 2px solid @footerFontColor;
+                    }
+                }
+                ul{
+                    overflow: hidden;
+                    li{
+                        float: none;
+                        margin: 15px 0;
+                        font-size: 12px;
+                        a{
+                            color: @footerFontColor;
+                        }
+                    }
+                }
+            }
+        }
+        form{
+            float: left;
+            width: 50%;
+            div{
+                padding-top:0 ;
+            }
+            .message{
+                input{
+                    width: 144px;
+                    height: 30px;
+                    border: 1px solid @footerFontColor;
+                    background: none;
+                    padding-left: 8px;
+                    font-size: 12px;
+                    line-height: 30px;
+                    vertical-align:top;
+                    color: #fff;
+                }
+            }
+            textarea{
+                padding: 8px;
+                margin-top: 10px;
+                width: 292px;
+                height: 100px;
+                color: @footerFontColor;
+                border: 1px solid @footerFontColor;
+                background: none;
+            }
+            .verify{
+                input{
+                    width: 110px;
+                    height: 33px;
+                    border: 1px solid @footerFontColor;
+                    background: none;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    padding-left: 8px;
+                    line-height: 33px;
+                    color: #fff;
+                    vertical-align:middle;
+                }
+                img{
+                    margin-left: 15px;
+                }
+            }
+            .submit{
+                width: 110px;
+                height: 33px;
+                border: 1px solid @footerFontColor;
+                background: none;
+                color: @footerFontColor;
+            }
+        }
+    }
+    .footer-botton{
+        width: 100%;
+        padding-top: -40px;
+         p{
+            text-align: center;
+            color: @footerFontColor;
+            line-height: 33px;
+            border-top: 2px solid @footerFontColor;
+            font-size: 10px;
+        }
+    }
+}
